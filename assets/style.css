@@ -15,9 +15,16 @@ html {
 }
 
 [class*="col-"] {
-    height: 50px;
+    min-height: 50px;
     background-color: var(--blue);
     border: 1px solid var(--white);
+    
+}
+
+/* HEADER */
+
+.col-2, .col-6, .col-8 {
+    padding: 10px;
 }
 
 .content {
@@ -28,29 +35,12 @@ html {
     color: var(--white);
 }
 
-/* HEADER */
-
-header {
-    margin-bottom: 1rem;
-}
-
 .green {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     height: 100%;
+    border: 1px solid var(--blue);
     background-color: var(--green);
-    color: var(--white);
-}
-
-/* MAIN */
-
-main {
-    margin-bottom: 1rem;
-}
-
-/* FOOTER */
-
-footer {
-    margin-bottom: 1rem;
 }
