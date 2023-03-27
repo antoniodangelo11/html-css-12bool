@@ -19,8 +19,37 @@ html {
     overflow-y: auto;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+
 /* HEADER */
 
 header {
+    margin-bottom: 1rem;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,225,101);
+    color: rgb(255, 255, 255);
+}
+
+/* MAIN */
+
+main {
+    margin-bottom: 1rem;
+}
+
+
+/* FOOTER */
+
+footer {
     margin-bottom: 1rem;
 }
